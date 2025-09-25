@@ -76,9 +76,9 @@ public class CRUD {
 		
 		System.out.println("Enter Updated Admitted Date :");
 		String q=sc.next();
-		p.setAdmittedDate(q);
+		pr.setAdmittedDate(q);
 		
-		session.persist(p);
+		session.persist(pr);
 		transaction.commit();
 		session.close();
 	}
